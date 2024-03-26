@@ -4,6 +4,7 @@ library(DBI)
 library(lubridate)
 library(parsedate)
 library(rmarkdown)
+library(targets)
 source("Lectures_donnees_multiple.R")
 
 #Choisir votre work directory avec les donnees et les scripts

@@ -5,12 +5,12 @@ library(lubridate)
 library(parsedate)
 library(rmarkdown)
 library(targets)
-source("Lectures_donnees_multiple.R")
+source("ScriptsR/Lectures_donnees_multiples.R")
 
 #Choisir votre work directory avec les donnees et les scripts
 
 #Lectures des données pour en faire un data frame
-data_oiseaux=Lectures_donnees_m("acoustique_oiseaux")
+data_oiseaux=Lectures_donnees_m("Données")
 
 #Création de 4 data frame représentant les 4 tables SQL de la base de données, 
 #moins les ID uniques qui seront générés avec la table. On ne fait que sélectionné

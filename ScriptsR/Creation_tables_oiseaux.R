@@ -1,4 +1,11 @@
-Creation_table_oiseaux= function(fichier,connection){
+Creation_table_oiseaux= function(fichier){
+  
+  #Monte le nom avec le working directory pour se connecter à la base de données
+  d=getwd()
+  n="oiseaux.db"
+  z=paste(d,n)
+  #Ouvre la oiseaux_bd à la base de donnée nommée oiseaux.db par l'objet oiseaux_db
+  oiseaux_bd = dbConnect(RSQLite::SQLite(), dbname=z)
   
   #Création de 4 data frame représentant les 4 tables SQL de la base de données, 
   #moins les ID uniques qui seront générés avec la table. On ne fait que sélectionné
@@ -29,8 +36,8 @@ Creation_table_oiseaux= function(fichier,connection){
     );"
   
   #Envoie la demande à RSQLite pour la création de la table temps par l'objet 
-  #connection qui nous lie à la base de donnée oiseaux.db
-  dbSendQuery(connection, creer_temps)
+  #oiseaux_bd qui nous lie à la base de donnée oiseaux.db
+  dbSendQuery(oiseaux_bd, creer_temps)
   
   #Crée la table taxonomie sous forme d'un char pour être utilisé dans la fonction dbSendQuery
   creer_taxonomie = "CREATE TABLE taxonomie (
@@ -48,8 +55,8 @@ Creation_table_oiseaux= function(fichier,connection){
     );"
   
   #Envoie la demande à RSQLite pour la création de la table taxonomie par l'objet 
-  #connection qui nous lie à la base de donnée oiseaux.db
-  dbSendQuery(connection, creer_taxonomie)
+  #oiseaux_bd qui nous lie à la base de donnée oiseaux.db
+  dbSendQuery(oiseaux_bd, creer_taxonomie)
   
   #Crée la table site sous forme d'un char pour être utilisé dans la fonction dbSendQuery
   creer_site = "CREATE TABLE site (
@@ -60,8 +67,8 @@ Creation_table_oiseaux= function(fichier,connection){
     );"
   
   #Envoie la demande à RSQLite pour la création de la table principale par l'objet 
-  #connection qui nous lie à la base de donnée oiseaux.db
-  dbSendQuery(connection, creer_site)
+  #oiseaux_bd qui nous lie à la base de donnée oiseaux.db
+  dbSendQuery(oiseaux_bd, creer_site)
   
   #Crée la table principale sous forme d'un char pour être utilisé dans la fonction dbSendQuery
   creer_principale = "CREATE TABLE principale (
@@ -77,25 +84,46 @@ Creation_table_oiseaux= function(fichier,connection){
     );"
   
   #Envoie la demande à RSQLite pour la création de la table principale par l'objet 
-  #connection qui nous lie à la base de donnée oiseaux.db
-  dbSendQuery(connection, creer_principale)
+  #oiseaux_bd qui nous lie à la base de donnée oiseaux.db
+  dbSendQuery(oiseaux_bd, creer_principale)
   
   #écriture des tables en injectant les données de nos dataframe R
-  dbWriteTable(connection, append=TRUE, name="site", value=data_site, row.names=FALSE)
-  dbWriteTable(connection, append=TRUE, name="taxonomie", value=data_taxonomie, row.names=FALSE)
-  dbWriteTable(connection, append=TRUE, name="temps", value=data_temps, row.names=FALSE)
+  dbWriteTable(oiseaux_bd, append=TRUE, name="site", value=data_site, row.names=FALSE)
+  dbWriteTable(oiseaux_bd, append=TRUE, name="taxonomie", value=data_taxonomie, row.names=FALSE)
+  dbWriteTable(oiseaux_bd, append=TRUE, name="temps", value=data_temps, row.names=FALSE)
   
   #ajout de id_obs à la table fichier pour ensuite faire le lien dans data_principale et la table principale
-  id_merge=dbGetQuery(connection, "SELECT * FROM temps")
+  id_merge=dbGetQuery(oiseaux_bd, "SELECT * FROM temps")
   fichier = left_join(id_merge, fichier, by=c("time_start","time_finish","date_obs"))
   
   data_principale=fichier[ , c("variable", "time_obs","site_id","valid_scientific_name", "id_date")]
   
-  dbWriteTable(connection, append=TRUE, name="principale", value=data_principale, row.names=FALSE)
+  dbWriteTable(oiseaux_bd, append=TRUE, name="principale", value=data_principale, row.names=FALSE)
 
+  #tableaux test pour voir si la bd est correcte
+  test=dbGetQuery(oiseaux_bd, "SELECT date_obs FROM temps ORDER BY date_obs DESC" )
+  head(test)
+  test2=dbGetQuery(oiseaux_bd, "SELECT * FROM principale" )
+  head(test2)
+  test3=dbGetQuery(oiseaux_bd, "SELECT * FROM taxonomie")
+  head(test3)
+  test4=dbGetQuery(oiseaux_bd, "SELECT * FROM temps")
+  head(test4)
+  test5=dbGetQuery(oiseaux_bd, "SELECT * FROM site")
+  head(test5)
+  
+  #débugging
+  dbSendQuery(oiseaux_bd, "DROP TABLE temps")
+  dbSendQuery(oiseaux_bd, "DROP TABLE site")
+  dbSendQuery(oiseaux_bd, "DROP TABLE taxonomie")
+  dbSendQuery(oiseaux_bd, "DROP TABLE principale")
+  
+  #Nous déconnecte de la base de données oiseaux.db pour permettre 
+  #l'accès à un autre utilisateur
+  dbDisconnect(oiseaux_bd)
   
   #liste pour le retour des tableaux à des fin de débbuging
-  liste_test=list(data_temps, data_site, data_taxonomie, data_principale, data_oiseaux)
+  liste_test=list(data_temps, data_site, data_taxonomie, data_principale, data_oiseaux, test2, test3, test4, test5)
  
   return(liste_test)
 }

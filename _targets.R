@@ -1,0 +1,21 @@
+library(dplyr)
+library(RSQLite)
+library(DBI)
+library(lubridate)
+library(parsedate)
+library(rmarkdown)
+library(targets)
+
+source("ScriptsR/Lectures_donnees_multiples.R")
+source("ScriptsR/Creation_tables_oiseaux.R")
+
+list(
+  tar_target(
+    name = donnees_oiseaux, #nom dataframe
+    command = Lectures_donnees_m("Données") # Lecture des donnes
+  ), 
+  tar_target(
+    name = injection, #retour des tests après injection
+    command = Creation_table_oiseaux(donnees_oiseaux) # Injection des données
+  )
+)

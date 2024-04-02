@@ -14,7 +14,6 @@ Lectures_donnees_m=function(fichier){
   
   #Nettoyage à faire pour les NULL en NA
   combined_data[combined_data== "NULL"]=NA
-  #data_oiseaux[is.na(data_oiseaux)]="NULL"
   
   #Enlève les colonne des noms vernaculaire
   combined_data=combined_data[ , c(1:9, 12:18)]

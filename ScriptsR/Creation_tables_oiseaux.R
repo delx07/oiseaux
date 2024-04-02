@@ -123,7 +123,7 @@ Creation_table_oiseaux= function(fichier){
   dbDisconnect(oiseaux_bd)
   
   #liste pour le retour des tableaux à des fin de débbuging
-  liste_test=list(data_temps, data_site, data_taxonomie, data_principale, data_oiseaux, test2, test3, test4, test5)
+  liste_test=list(data_temps, data_site, data_taxonomie, data_principale, fichier, test2, test3, test4, test5)
  
   return(liste_test)
 }

@@ -113,10 +113,10 @@ Creation_table_oiseaux= function(fichier){
   head(test5)
   
   #débugging
-  dbSendQuery(oiseaux_bd, "DROP TABLE temps")
-  dbSendQuery(oiseaux_bd, "DROP TABLE site")
-  dbSendQuery(oiseaux_bd, "DROP TABLE taxonomie")
-  dbSendQuery(oiseaux_bd, "DROP TABLE principale")
+  #dbSendQuery(oiseaux_bd, "DROP TABLE temps")
+  #dbSendQuery(oiseaux_bd, "DROP TABLE site")
+  #dbSendQuery(oiseaux_bd, "DROP TABLE taxonomie")
+  #dbSendQuery(oiseaux_bd, "DROP TABLE principale")
   
   #Nous déconnecte de la base de données oiseaux.db pour permettre 
   #l'accès à un autre utilisateur

@@ -31,6 +31,7 @@ output: rticles::pnas_article
 Introduction {.unnumbered}
 ========================================
 Définition et explication de la ou les question du projet
+Observer l'influence que la géographie et la période temporelle ont sur la diversité d'espèce dans la répartition des données du québec
 
 
 Méthodes et résultats {.unnumbered}
@@ -52,33 +53,16 @@ for the SI, should be included in the main manuscript file. References
 appearing in both sections should not be duplicated. SI references
 included in tables should be included with the main reference section.
 
-![Placeholder image of a frog with a long example caption to show
-justification setting.<span data-label="fig:frog"></span>](frog.png)
+![Légende figure. \label{fig:plot1}]("../Rapport/frog.png"){width=10% height=10%}
 
 Digital Figures {#sec:figures .unnumbered}
 ---------------
-
-Figures and Tables should be labelled and referenced in the standard way
-using the `\label{}` and `\ref{}` commands.
-
-Figure \[fig:frog\] shows an example of how to insert a column-wide
-figure. To insert a figure wider than one column, please use the
-`\begin{figure*}...\end{figure*}` environment. Figures wider than one
-column should be sized to 11.4 cm or 17.8 cm wide.
 
 ![Placeholder image of a frog with a long example caption to show
 justification setting.<span data-label="fig:frog"></span>](frog.png)
 
 Digital Figures {#sec:figures .unnumbered}
 ---------------
-
-Figures and Tables should be labelled and referenced in the standard way
-using the `\label{}` and `\ref{}` commands.
-
-Figure \[fig:frog\] shows an example of how to insert a column-wide
-figure. To insert a figure wider than one column, please use the
-`\begin{figure*}...\end{figure*}` environment. Figures wider than one
-column should be sized to 11.4 cm or 17.8 cm wide.
 
 ![Placeholder image of a frog with a long example caption to show
 justification setting.<span data-label="fig:frog"></span>](frog.png)

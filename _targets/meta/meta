@@ -1,8 +1,10 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-Creation_table_oiseaux|function|90e72779470b518d|||||||||||||||
+Creation_table_oiseaux|function|67f54c1d7ce55fe4|||||||||||||||
+demande|stem|07104f82cfab5fae|1896c7652c808c7c|57dd50b6ccbb4b85|372993390||t19822.7331012835s|3f51adc7240eef86|61297|rds|local|vector|||0.09||
+Demande_SQL|function|b5b05c75eeeea18c|||||||||||||||
 donnees_oiseaux|stem|5f1859a14436ccb8|9342abb0c7f6b4d4|4701f0ef059f13db|1146262604||t19822.605476433s|85c0eeba2431cc09|280923|rds|local|vector|||280.47|le package knitr a été compilé avec la version R 4.3.3|
 file_paths|stem|79218c1a7a791591|71948d4e0817f43c|b459fca1a6fedf30|-1262214154||t19822.5971113941s|e876e462752ca2f9|5987|rds|local|vector|||0.03||
-injection|stem|6960fb6c8f84bcd6|9eb15cb654dc1349|364bc75881e79994|1455563006||t19815.6223888602s|dc46a5bed9dc2932|674455|rds|local|vector|||1.11|Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. There are 1 result in use. The connection will be released when they are closed|
+injection|stem|6960fb6c8f84bcd6|9eb15cb654dc1349|31d2c8c4a0ff44b1|1455563006||t19822.733099619s|dc46a5bed9dc2932|674455|rds|local|vector|||0.39|Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows|
 Lectures_donnees_m|function|8e7a41ec8258fd66|||||||||||||||
 path|stem|13ade2be7c171dbe|b19ec99511f09cbf|ef46db3751d8e999|1488123031|./Données|t19808.594764474s|85b96645739993dd|1048576|file|local|vector|||0.03|le package knitr a été compilé avec la version R 4.3.3|
-rapport|stem|39984dda10ba01fe|3fa2e91e1706e065|ef46db3751d8e999|-1266156412|Rapport/Rapport.pdf*Rapport/Rapport.Rmd|t19822.6149381122s|c1484a81e6023457|359846|file|local|vector|||7.66|Package sidecap Warning Package ragged2e not found  expect bad formatting.. Package microtype Warning Unable to apply patch eqnum on input line 98.|
+rapport|stem|e417d4fae454bdb1|3fa2e91e1706e065|ef46db3751d8e999|-1266156412|Rapport/Rapport.pdf*Rapport/Rapport.Rmd|t19822.733088094s|a782f070bc73827e|346836|file|local|vector|||5.11|LaTeX Warning Label secfigures multiply defined.. LaTeX Warning Label secfigures multiply defined.. LaTeX Warning Label references multiply defined.. Package sidecap Warning Package ragged2e not found  expect bad formatting.. Package microtype Warning Unable to apply patch eqnum on input line 82.. LaTeX Warning There were multiplydefined labels.|

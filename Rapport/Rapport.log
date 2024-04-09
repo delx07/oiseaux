@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.9)  9 APR 2024 11:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.9)  9 APR 2024 13:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1098,16 +1098,25 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 9.49997pt on input line 99.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 119.
+(hyperref)                be the same. Added a new anchor on input line 121.
 
-<frog.png, id=39, 200.75pt x 198.7425pt>
+<../Rapport/frog.png, id=39, 200.75pt x 198.7425pt>
+File: ../Rapport/frog.png Graphic file (type png)
+<use ../Rapport/frog.png>
+Package pdftex.def Info: ../Rapport/frog.png  used on input line 132.
+(pdftex.def)             Requested size: 50.57027pt x 67.59885pt.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 6.64998pt on input line 133.
+<frog.png, id=41, 200.75pt x 198.7425pt>
 File: frog.png Graphic file (type png)
 <use frog.png>
-Package pdftex.def Info: frog.png  used on input line 130.
+Package pdftex.def Info: frog.png  used on input line 142.
 (pdftex.def)             Requested size: 200.7495pt x 198.742pt.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.64998pt on input line 132.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 140.
+File: frog.png Graphic file (type png)
+<use frog.png>
+Package pdftex.def Info: frog.png  used on input line 153.
+(pdftex.def)             Requested size: 200.7495pt x 198.742pt.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 163.
 (c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1115,26 +1124,19 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-File: frog.png Graphic file (type png)
-<use frog.png>
-Package pdftex.def Info: frog.png  used on input line 151.
-(pdftex.def)             Requested size: 200.7495pt x 198.742pt.
-Package mdframed Info: mdframed works in twoside mode on input line 154.
-Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 154.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 154.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 154.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 154.
-File: frog.png Graphic file (type png)
-<use frog.png>
-Package pdftex.def Info: frog.png  used on input line 172.
-(pdftex.def)             Requested size: 200.7495pt x 198.742pt.
+
+Underfull \hbox (badness 1394) in paragraph at lines 179--183
+\T1/lmr/m/n/9 (+20) are to use the \T1/lmtt/m/n/9 \begin{figure*}...\end{figure*} \T1/lmr/m/n/9 (+20) en-vi-
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 179--183
+\T1/lmr/m/n/9 (+20) ron-ment men-tioned above for fig-ures, or to use the
+ []
+
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 198.
-LaTeX Font Info:    Trying to load font information for T1+bch on input line 198.
+(Font)              <7> on input line 183.
+LaTeX Font Info:    Trying to load font information for T1+bch on input line 183.
 (c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1bch.fd
 File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 ) (c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-bch.cfg
@@ -1142,50 +1144,50 @@ File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
 ) [1{c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}
 
 
-{c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}
+
 pdfTeX warning (ext4): destination with the same identifier (name{sec:figures}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.198 T
-       o allow an equation to span both columns, options are to use the
+l.183 environment as shown in equation \[
+                                         eqn:example\] below.
 pdfTeX warning (ext4): destination with the same identifier (name{sec:figures}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.198 T
-       o allow an equation to span both columns, options are to use the <./frog.png>]
-Underfull \hbox (badness 1394) in paragraph at lines 198--202
-\T1/lmr/m/n/9 (+20) are to use the \T1/lmtt/m/n/9 \begin{figure*}...\end{figure*} \T1/lmr/m/n/9 (+20) en-vi-
- []
-
-
-Underfull \hbox (badness 2443) in paragraph at lines 198--202
-\T1/lmr/m/n/9 (+20) ron-ment men-tioned above for fig-ures, or to use the
- []
-
+l.183 environment as shown in equation \[
+                                         eqn:example\] below.{c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <../Rapport/frog.png> <./frog.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 183.
+Package mdframed Info: mdframed inside float 
+ mdframed uses option nobreak mdframed on input line 183.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 183.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 183.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 183.
 
 pdfTeX warning (ext4): destination with the same identifier (name{references}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.220 \section*{Références}\label{references}}
+l.201 \section*{Références}\label{references}}
                                                 
-Underfull \hbox (badness 10000) in paragraph at lines 227--232
+Underfull \hbox (badness 10000) in paragraph at lines 208--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--238
+Underfull \hbox (badness 10000) in paragraph at lines 214--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--245
+Underfull \hbox (badness 10000) in paragraph at lines 220--226
 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 253.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 234.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 6.64998pt on input line 253.
+(Font)              scaled to size 6.64998pt on input line 234.
 [2
 
 ] 
@@ -1202,18 +1204,18 @@ Package rerunfilecheck Info: File `Rapport.out' has not changed.
 (rerunfilecheck)             Checksum: D5E7B89C34B48F953032CDB467BA2AA6;1156.
  ) 
 Here is how much of TeX's memory you used:
- 29975 strings out of 476021
- 560932 string characters out of 5789795
- 1948496 words of memory out of 5000000
- 51376 multiletter control sequences out of 15000+600000
+ 29984 strings out of 476021
+ 561157 string characters out of 5789795
+ 1943496 words of memory out of 5000000
+ 51385 multiletter control sequences out of 15000+600000
  628301 words of font info for 148 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 117i,15n,121p,1004b,1145s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,15n,121p,1004b,1133s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi9.pfb><c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri9.pfb><c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt9.pfb><c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/Users/Thoma/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Rapport.pdf (2 pages, 250764 bytes).
+Output written on Rapport.pdf (2 pages, 342579 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
+ 133 PDF objects out of 1000 (max. 8388607)
  102 compressed objects within 2 object streams
  17 named destinations out of 1000 (max. 500000)
- 53338 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 53343 words of extra memory for PDF output out of 61914 (max. 10000000)
 

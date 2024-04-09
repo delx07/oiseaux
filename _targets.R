@@ -5,6 +5,8 @@ library(lubridate)
 library(parsedate)
 library(rmarkdown)
 library(targets)
+library(rticles)
+
 
 source("ScriptsR/Lectures_donnees_multiples.R")
 source("ScriptsR/Creation_tables_oiseaux.R")

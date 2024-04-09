@@ -7,7 +7,7 @@ library(rmarkdown)
 library(targets)
 library(rticles)
 library(tinytex)
-
+library(tarchetypes)
 
 source("ScriptsR/Lectures_donnees_multiples.R")
 source("ScriptsR/Creation_tables_oiseaux.R")
@@ -20,5 +20,9 @@ list(
   tar_target(
     name = injection, #retour des tests après injection
     command = Creation_table_oiseaux(donnees_oiseaux) # Injection des données
+  ),
+  tar_render(
+    name = rapport, # Cible du rapport
+    path = "Rapport/Rapport.Rmd" # Le path du rapport à renderiser
   )
 )

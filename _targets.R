@@ -6,6 +6,7 @@ library(parsedate)
 library(rmarkdown)
 library(targets)
 library(rticles)
+library(tinytex)
 
 
 source("ScriptsR/Lectures_donnees_multiples.R")

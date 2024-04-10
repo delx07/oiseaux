@@ -12,6 +12,7 @@ library(tarchetypes)
 source("ScriptsR/Lectures_donnees_multiples.R")
 source("ScriptsR/Creation_tables_oiseaux.R")
 source("ScriptsR/DemandeSQL.R")
+source("ScriptsR/Analyse_oiseaux.R")
 
 list(
   tar_target(

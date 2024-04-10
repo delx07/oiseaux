@@ -1,10 +1,10 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-analyse|stem|0ce3aecbd977e230|523081c106b5ea33|3281d686dfce498a|1234433813||t19822.8545880893s||83|rds|local|vector|||0.08||height doit être un vecteur ou une matrice
+analyse|stem|0ce3aecbd977e230|523081c106b5ea33|dabfd02743bfcfb7|1234433813||t19822.8545880893s||83|rds|local|vector|||0.06||height doit être un vecteur ou une matrice
 Analyse_oiseaux|function|95c8d19747797fcb|||||||||||||||
 Creation_table_oiseaux|function|67f54c1d7ce55fe4|||||||||||||||
 demande|stem|07104f82cfab5fae|1896c7652c808c7c|57dd50b6ccbb4b85|372993390||t19822.7331012835s|3f51adc7240eef86|61297|rds|local|vector|||0.09||
-Demande_SQL|function|0e262938c069cb7b|||||||||||||||
-demande_table|stem|2af7f439fe12ec96|1896c7652c808c7c|0cf272dc09a1b479|636447659||t19823.0947442386s|9863b1f0db918277|61590|rds|local|vector|||0.36||
+Demande_SQL|function|aba3097966f3c85b|||||||||||||||
+demande_table|stem|0aa1d49e5cffce84|1896c7652c808c7c|769c2d370dbdb3a6|636447659||t19823.1766580551s|ad788945e0aa136d|17901|rds|local|vector|||0.26||
 donnees_oiseaux|stem|5f1859a14436ccb8|9342abb0c7f6b4d4|4701f0ef059f13db|1146262604||t19822.605476433s|85c0eeba2431cc09|280923|rds|local|vector|||280.47|le package knitr a été compilé avec la version R 4.3.3|
 file_paths|stem|79218c1a7a791591|71948d4e0817f43c|b459fca1a6fedf30|-1262214154||t19822.5971113941s|e876e462752ca2f9|5987|rds|local|vector|||0.03||
 injection|stem|6960fb6c8f84bcd6|9eb15cb654dc1349|31d2c8c4a0ff44b1|1455563006||t19822.733099619s|dc46a5bed9dc2932|674455|rds|local|vector|||0.39|Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows|

@@ -25,14 +25,7 @@ Demande_SQL=function(liste_table){
              LEFT JOIN site ON principale.site_id = site.site_id 
              GROUP BY valid_scientific_name, lat  " )
   
-  
-  tableSQL_Fig4=dbGetQuery(oiseaux_bd, "SELECT date_obs, valid_scientific_name, COUNT(valid_scientific_name) AS abondance 
-             FROM principale
-             LEFT JOIN site ON principale.site_id = site.site_id
-             LEFT JOIN temps ON principale.id_date = temps.id_date
-             GROUP BY
-             DATEPART( DAY, principale.[date_obs])" )
-  tablesssssssssss=dbGetQuery(oiseaux_bd, "SELECT CONCAT(strftime('%Y', date_obs),'-' ,strftime('%m', date_obs)) , valid_scientific_name, COUNT(valid_scientific_name) AS abondance 
+  tableSQL_Fig4=dbGetQuery(oiseaux_bd, "SELECT CONCAT(strftime('%Y', date_obs),'-' ,strftime('%m', date_obs)) , valid_scientific_name, COUNT(valid_scientific_name) AS abondance 
               FROM principale
               LEFT JOIN temps ON principale.id_date = temps.id_date
               GROUP BY valid_scientific_name, strftime('%Y', date_obs),strftime('%m', date_obs)" )

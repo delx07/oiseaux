@@ -18,7 +18,7 @@ source("ScriptsR/Analyse_oiseaux.R")
 list(
   tar_target(
     name = donnees_oiseaux, #nom dataframe
-    command = Lectures_donnees_m("Données") # Lecture des donnes
+    command = Lectures_donnees_m("Données") # Lecture des données
   ), 
   tar_target(
     name = injection, #retour des tests après injection

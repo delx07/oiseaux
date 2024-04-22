@@ -31,6 +31,8 @@ Demande_SQL=function(liste_table){
               GROUP BY ordre, strftime('%Y', date_obs),strftime('%m', date_obs)" )
   
   liste_table_SQL=list(tableSQL_Fig1, tableSQL_Fig2, tableSQL_Fig3, tableSQL_Fig4)
+  
+  
   #Nous déconnecte de la base de données oiseaux.db pour permettre 
   #l'accès à un autre utilisateur
   dbDisconnect(oiseaux_bd)

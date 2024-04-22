@@ -12,6 +12,7 @@ library(ggplot2)
 
 source("ScriptsR/Lectures_donnees_multiples.R")
 source("ScriptsR/Creation_tables_oiseaux.R")
+source("ScriptsR/Injection.R")
 source("ScriptsR/DemandeSQL.R")
 source("ScriptsR/Analyse_oiseaux.R")
 
@@ -20,9 +21,14 @@ list(
     name = donnees_oiseaux, #nom dataframe
     command = Lectures_donnees_m("Données") # Lecture des données
   ), 
+  tar_force(
+    name = creation, 
+    command = Creation_table_oiseaux(donnees_oiseaux), # Création des tables
+    force = TRUE
+  ),
   tar_target(
     name = injection, #retour des tests après injection
-    command = Creation_table_oiseaux(donnees_oiseaux) # Injection des données
+    command = injection(donnees_oiseaux, creation) # Injection des données
   ),
   tar_target(
     name = demande_table, #retour des tableau de données pour répondre aux questions

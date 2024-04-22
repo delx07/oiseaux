@@ -27,7 +27,7 @@ Demande_SQL=function(liste_table){
              WHERE ordre in ('Passeriformes')
              GROUP BY ordre, lat  " )
   
-  tableSQL_Fig4=dbGetQuery(oiseaux_bd, "SELECT CONCAT(strftime('%Y', date_obs),'-' ,strftime('%m', date_obs)) , ordre, COUNT(ordre) AS abondance 
+  tableSQL_Fig4=dbGetQuery(oiseaux_bd, "SELECT CONCAT(strftime('%Y', date_obs),'-' ,strftime('%m', date_obs)) AS Date , ordre, COUNT(ordre) AS abondance 
               FROM principale
               LEFT JOIN temps ON principale.id_date = temps.id_date
               LEFT JOIN taxonomie ON principale.valid_scientific_name = taxonomie.valid_scientific_name

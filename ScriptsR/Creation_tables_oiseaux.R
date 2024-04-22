@@ -1,11 +1,6 @@
 Creation_table_oiseaux= function(fichier){
-  
-  #Monte le nom avec le working directory pour se connecter à la base de données
-  d=getwd()
-  n="oiseaux.db"
-  z=paste(d,n)
   #Ouvre la oiseaux_bd à la base de donnée nommée oiseaux.db par l'objet oiseaux_db
-  oiseaux_bd = dbConnect(RSQLite::SQLite(), dbname=z)
+  oiseaux_bd = dbConnect(RSQLite::SQLite(), dbname="oiseaux.db")
   
   #Création de 4 data frame représentant les 4 tables SQL de la base de données, 
   #moins les ID uniques qui seront générés avec la table. On ne fait que sélectionné

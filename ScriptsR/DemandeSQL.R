@@ -1,10 +1,6 @@
 Demande_SQL=function(liste_table){
-  #Monte le nom avec le working directory pour se connecter à la base de données
-  d=getwd()
-  n="oiseaux.db"
-  z=paste(d,n)
   #Ouvre la oiseaux_bd à la base de donnée nommée oiseaux.db par l'objet oiseaux_db
-  oiseaux_bd = dbConnect(RSQLite::SQLite(), dbname=z)
+  oiseaux_bd = dbConnect(RSQLite::SQLite(), dbname="oiseaux.db")
   
   tableSQL_Fig1=dbGetQuery(oiseaux_bd, "SELECT lat, avg(abondance) 
     FROM(     

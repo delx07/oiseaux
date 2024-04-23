@@ -21,10 +21,9 @@ list(
     name = donnees_oiseaux, #nom dataframe
     command = Lectures_donnees_m("Données") # Lecture des données
   ), 
-  tar_force(
-    name = creation, 
+  tar_target(
+    name = creation, #retour pour faire la liaison avec le target suivant
     command = Creation_table_oiseaux(donnees_oiseaux), # Création des tables
-    force = TRUE
   ),
   tar_target(
     name = injection, #retour des tests après injection

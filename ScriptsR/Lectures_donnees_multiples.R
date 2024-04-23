@@ -47,9 +47,10 @@ Lectures_donnees_m=function(fichier){
       print(retour)
     }
   }
-  
-  georef=rep("SCRS6622",times=30433)
-  
+  #Fabrique un vecteur pour le géoreférencement
+  nb= nrow(combined_data)
+  georef=rep("SCRS6622",times=nb)
+  #met le vecteur comme colonne dans le tableau des donnees combiné
   combined_data=cbind(combined_data, georef)
   
   

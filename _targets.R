@@ -23,7 +23,7 @@ list(
   ), 
   tar_target(
     name = creation, #retour pour faire la liaison avec le target suivant
-    command = Creation_table_oiseaux(donnees_oiseaux), # Création des tables
+    command = Creation_table_oiseaux(donnees_oiseaux) # Création des tables
   ),
   tar_target(
     name = injection, #retour des tests après injection

@@ -28,9 +28,6 @@ lineno: false
 
 output: rticles::pnas_article
 
-# header-includes:
-#   - "\\usepackage{etex}"
-#   - "\\reserveinserts{28}"
 ---
 
 Introduction {.unnumbered}

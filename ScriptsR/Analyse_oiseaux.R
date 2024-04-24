@@ -1,16 +1,5 @@
 Analyse_oiseaux=function(table){
   
- # dataFrame=as.data.frame(table[1])
-  #png("Figure_1.png")
-  #barplot(dataFrame)
-  #dev.off()
-  
- # dataFrame=as.data.frame(table[2])
-  #png("Figure_2.png")
-  #barplot(dataFrame)
-  #dev.off()
-  #setwd("oiseaux/Rapport")
-  
   table1<-as.data.frame(table[1])
   table2<-as.data.frame(table[2])
   table3<-as.data.frame(table[3])

@@ -1,3 +1,4 @@
+\RequirePackage{etex}
 ---
 title: Passereaux en passerelle
 

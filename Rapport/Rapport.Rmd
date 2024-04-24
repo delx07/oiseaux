@@ -20,7 +20,7 @@ abstract: |
 ## must be one of: pnasresearcharticle (usual two-column layout), pnasmathematics (one column layout), or pnasinvited (invited submissions only)
 pnas_type: pnasresearcharticle
 
-bibliography: pnas-sample.bib
+bibliography: Ref_BIO500.bib
 csl: pnas.csl
 
 ## change to true to add optional line numbering
@@ -53,53 +53,7 @@ Les résultats nous démontrent une grande abondance d’observation entre les l
 
 La tendance d’abondance d’observations suit bien ce à quoi on s’attendrait dans un contexte de suivit d’oiseaux migrateurs selon les mois de l’année. On peut observer une hausse au niveau des observations en mars ce qui coïncide avec l’arrivée des espèces migratrices au Québec (Canada, 2018; Guénette, s. d.). Cette hausse est aussi dû au début de la période de nidification qui va se dérouler jusqu’en mai (Canada, 2018; Guénette, s. d.). Le deuxième pic d’observation est au mois d’août qui est le début de la migration inverse des espèces qui vont graduellement commencer leur migration au sud jusqu’au mois de novembre où les dernières espèces migratrices quittent le Québec pour aller vers des climats plus chauds (Canada, 2018; Guénette, s. d.). Notre modèle représente donc bien les variations attendues d’observations des oiseaux migrateurs selon les différents mois de l’année au Québec. 
 
-<!-- ![Légende figure. \label{fig:img1}]("Figure2.png"){width=50% height=40%} -->
-
-
-References {#references .unnumbered}
 ----------
-
-References should be cited in numerical order as they appear in text;
-this will be done automatically via bibtex, e.g. @belkin2002using and
-@berard1994embedding [@coifman2005geometric]. All references, including
-for the SI, should be included in the main manuscript file. References
-appearing in both sections should not be duplicated. SI references
-included in tables should be included with the main reference section.
-
-
-<!-- Digital Figures {#sec:figures .unnumbered} -->
-<!-- --------------- -->
-
-<!-- ![Placeholder image of a frog with a long example caption to show -->
-<!-- justification setting.<span data-label="fig:frog"></span>](Figure3.png) -->
-
-<!-- Digital Figures {#sec:figures .unnumbered} -->
-<!-- --------------- -->
-
-<!-- ![Placeholder image of a frog with a long example caption to show -->
-<!-- justification setting.<span data-label="fig:frog"></span>](Figure4.png) -->
-
-<!-- Digital Figures {#sec:figures .unnumbered} -->
-<!-- --------------- -->
-
-Figures and Tables should be labelled and referenced in the standard way
-using the `\label{}` and `\ref{}` commands.
-
-Figure \[fig:frog\] shows an example of how to insert a column-wide
-figure. To insert a figure wider than one column, please use the
-`\begin{figure*}...\end{figure*}` environment. Figures wider than one
-column should be sized to 11.4 cm or 17.8 cm wide.
-
-Single column equations {#single-column-equations .unnumbered}
------------------------
-
-Authors may use 1- or 2-column equations in their article, according to
-their preference.
-
-To allow an equation to span both columns, options are to use the
-`\begin{figure*}...\end{figure*}` environment mentioned above for
-figures, or to use the `\begin{widetext}...\end{widetext}` environment
-as shown in equation \[eqn:example\] below.
 
 \showmatmethods
 Références {#references .unnumbered}

@@ -39,6 +39,7 @@ list(
   ),
   tar_render(
     name = rapport, # Cible du rapport
-    path = "Rapport/Rapport.Rmd" # Le path du rapport à renderiser
+    path = "Rapport/Rapport.Rmd", # Le path du rapport à renderiser
+    params = analyse
   )
 )

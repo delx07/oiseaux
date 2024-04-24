@@ -13,7 +13,38 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 
+% Pandoc citation processing
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+% for Pandoc 2.8 to 2.10.1
+\newenvironment{cslreferences}%
+  {}%
+  {\par}
+% For Pandoc 2.11+
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
+\usepackage{etex}
+\reserveinserts{28}
 
 \templatetype{pnasresearcharticle}  % Choose template
 
@@ -105,18 +136,18 @@ plus tard dans l'année entre 45 et 50. La distribution elle-même
 comporte des valeurs semblables de 45 à 48 de latitude et un gros pic à
 58. On prédit qu'environ 75\% des espèces situées à une latitude de 55
 ou plus migreront vers le sud, comparer à 55-65\% des espèces qui sont à
-des latitudes de 45-50 (Newton \& Dale 1996). C'est pourquoi nous
-pouvons être confiant qu'il y a probablement de la lecture double entre
-les espèces à 58 et ceux qui sont retrouvés plus basses. L'autre
-graphique montre que la tendance de distribution est assez nulle selon
-l'autre graphique de distribution qui n'a pas été simplifié par unité de
-latitude ce qui signifie que la distribution des oiseaux est assez
-uniforme et la latitude importe peu à leur présence. En fait, les niches
-selon les latitudes sont remplies et il n'y a pas de pression évolutive
-qui provient de ce facteur dans le jour présent (Rabosky et al.~2015),
-donc on s'attend justement à une distribution uniforme. Le graphique
-atteint nos attentes initiales, mais avec une latitude 58 qui a un
-étendu plus grand que prévu, probablement dû à l'effet de la migration.
+des latitudes de 45-50 (1). C'est pourquoi nous pouvons être confiant
+qu'il y a probablement de la lecture double entre les espèces à 58 et
+ceux qui sont retrouvés plus basses. L'autre graphique montre que la
+tendance de distribution est assez nulle selon l'autre graphique de
+distribution qui n'a pas été simplifié par unité de latitude ce qui
+signifie que la distribution des oiseaux est assez uniforme et la
+latitude importe peu à leur présence. En fait, les niches selon les
+latitudes sont remplies et il n'y a pas de pression évolutive qui
+provient de ce facteur dans le jour présent (2), donc on s'attend
+justement à une distribution uniforme. Le graphique atteint nos attentes
+initiales, mais avec une latitude 58 qui a un étendu plus grand que
+prévu, probablement dû à l'effet de la migration.
 
 \begin{figure}
 \centering
@@ -131,27 +162,26 @@ démontrer une baisse des observations plus les sites sont aux nord. Ces
 résultats ne sont pas surprenants lorsqu'on considère que la majorité
 des passereaux sont des oiseaux migrateurs qui pour la plupart préfère
 un climat plus tempéré qui est typiquement plus présent dans le sud du
-Québec (DesGranges \& Morneau, 2010). La distribution des oiseaux serait
-influencée autant par des facteurs climatiques que des facteurs en liens
-avec les habitats suggérant que le climat peut indirectement influencer
-la distribution des oiseaux en affectant la végétation (DesGranges \&
-Morneau, 2010). Malgré cette tendance, nous avons un bon nombre
-d'observation à proximité de la latitude 60 ce qui semble aller à
-l'encontre de notre tendance. Il faut se rappeler que nos sites
-d'échantillonnages sont répartis à différentes latitudes et que la
+Québec (3). La distribution des oiseaux serait influencée autant par des
+facteurs climatiques que des facteurs en liens avec les habitats
+suggérant que le climat peut indirectement influencer la distribution
+des oiseaux en affectant la végétation (3). Malgré cette tendance, nous
+avons un bon nombre d'observation à proximité de la latitude 60 ce qui
+semble aller à l'encontre de notre tendance. Il faut se rappeler que nos
+sites d'échantillonnages sont répartis à différentes latitudes et que la
 majorité de nos sites se situe dans le sud du Québec sauf pour quelques
 sites répartis dans le nord du Québec à proximité de la latitude 60.
 L'absence de site entre ces deux extrêmes viendrait expliquer pourquoi
 il y a une chute si soudaine entre les abondances d'observations.
 L'observation d'espèces de passereaux nordiques reste tout de même
-conforme avec les résultats obtenus par DesGranges \& Morneau (2010) qui
-eux avaient pu observer que certaines espèces restaient vraiment dans le
-nord de leur aire de répartition. Il serait intéressant de refaire
-l'expérience avec plus de sites qui seraient mieux répartis pour essayer
-de former un gradient continu de site d'observation du sud au nord. Ce
-gradient permettrait d'observer encore mieux la tendance ou à l'inverse
-de démontré que cette tendance était seulement l'objet de l'écart entre
-la répartition de nos sites d'observations.
+conforme avec les résultats obtenus par (3) qui eux avaient pu observer
+que certaines espèces restaient vraiment dans le nord de leur aire de
+répartition. Il serait intéressant de refaire l'expérience avec plus de
+sites qui seraient mieux répartis pour essayer de former un gradient
+continu de site d'observation du sud au nord. Ce gradient permettrait
+d'observer encore mieux la tendance ou à l'inverse de démontré que cette
+tendance était seulement l'objet de l'écart entre la répartition de nos
+sites d'observations.
 
 \begin{figure}
 \centering
@@ -163,15 +193,14 @@ La tendance d'abondance d'observations suit bien ce à quoi on
 s'attendrait dans un contexte de suivit d'oiseaux migrateurs selon les
 mois de l'année. On peut observer une hausse au niveau des observations
 en mars ce qui coïncide avec l'arrivée des espèces migratrices au Québec
-(Canada, 2018; Guénette, s. d.). Cette hausse est aussi dû au début de
-la période de nidification qui va se dérouler jusqu'en mai (Canada,
-2018; Guénette, s. d.). Le deuxième pic d'observation est au mois d'août
-qui est le début de la migration inverse des espèces qui vont
-graduellement commencer leur migration au sud jusqu'au mois de novembre
-où les dernières espèces migratrices quittent le Québec pour aller vers
-des climats plus chauds (Canada, 2018; Guénette, s. d.). Notre modèle
-représente donc bien les variations attendues d'observations des oiseaux
-migrateurs selon les différents mois de l'année au Québec.
+(4). Cette hausse est aussi dû au début de la période de nidification
+qui va se dérouler jusqu'en mai (4, 5). Le deuxième pic d'observation
+est au mois d'août qui est le début de la migration inverse des espèces
+qui vont graduellement commencer leur migration au sud jusqu'au mois de
+novembre où les dernières espèces migratrices quittent le Québec pour
+aller vers des climats plus chauds (4, 5). Notre modèle représente donc
+bien les variations attendues d'observations des oiseaux migrateurs
+selon les différents mois de l'année au Québec.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -182,6 +211,46 @@ migrateurs selon les différents mois de l'année au Québec.
 \addcontentsline{toc}{section}{Références}
 
 \pnasbreak
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{0}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-newton_bird_1996}{}}%
+\CSLLeftMargin{1. }%
+\CSLRightInline{Newton I, Dale LC (1996)
+\href{https://academic.oup.com/auk/article-abstract/113/3/626/5168287}{Bird
+migration at different latitudes in eastern {North} {America}}.
+\emph{The Auk} 113(3):626--635.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-rabosky_minimal_2015}{}}%
+\CSLLeftMargin{2. }%
+\CSLRightInline{Rabosky DL, Title PO, Huang H (2015)
+\href{https://doi.org/10.1098/rspb.2014.2889}{Minimal effects of
+latitude on present-day speciation rates in {New} {World} birds}.
+\emph{Proceedings of the Royal Society B: Biological Sciences}
+282(1809):20142889.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-desgranges_potential_2010}{}}%
+\CSLLeftMargin{3. }%
+\CSLRightInline{DesGranges J-L, Morneau F (2010)
+\href{https://www.researchgate.net/profile/Francois-Morneau-5/publication/271297003_Potential_Sensitivity_of_Quebec\textquotesingle{}s_Breeding_Birds_to_Climate_Change/links/654d3ca0b86a1d521bc88312/Potential-Sensitivity-of-Quebecs-Breeding-Birds-to-Climate-Change.pdf}{Potential
+{Sensitivity} of {Québec}'s {Breeding} {Birds} to {Climate} {Change}
+{Sensibilité} potentielle des oiseaux nicheurs du {Québec} aux
+changements climatiques}. \emph{Avian Conservation and Ecology} 5(2):5.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-canada_periodes_2018}{}}%
+\CSLLeftMargin{4. }%
+\CSLRightInline{Canada E et C climatique (2018) Périodes de
+nidification. Available at:
+\url{https://www.canada.ca/fr/environnement-changement-climatique/services/prevention-effets-nefastes-oiseaux-migrateurs/periodes-generales-nidification/periodes-nidification.html}
+{[}Accessed April 24, 2024{]}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-noauthor_saison_nodate}{}}%
+\CSLLeftMargin{5. }%
+\CSLRightInline{La saison préférée des ornithologues - {Sépaq} Available
+at: \url{https://www.sepaq.com/blogue/saison-preferee-ornithologues.dot}
+{[}Accessed April 24, 2024{]}.}
+
+\end{CSLReferences}
 
 
 

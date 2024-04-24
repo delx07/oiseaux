@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.9)  24 APR 2024 13:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.24)  24 APR 2024 14:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -912,258 +912,32 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2024/03/29 v3.1b microtype main configuration file (RS)
 )) (c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (./pnasresearcharticle.sty
-Package: pnasresearcharticle 2018/05/06 v1.3 PNAS two column research article style
-\@float@every@sigstatement=\toks52
-\c@sigstatement=\count372
-) (./Rapport.aux)
-\openout1 = `Rapport.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-(c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-(c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
-Package hyperref Info: Link coloring ON on input line 53.
-(./Rapport.out) (./Rapport.out)
-\@outlinefile=\write4
-\openout4 = `Rapport.out'.
-
-(c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
-Package: draftwatermark 2024/03/04 3.3 Put a gray textual watermark on document pages
 )
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: letterpaper
-* layout: <custom>
-* layout(width,height): (587.19374pt,785.93625pt)
-* layoutoffset:(h,v)=(13.55061pt,4.51686pt)
-* modes: includehead includefoot twoside 
-* h-part:(L,W,R)=(38.5pt, 505.69374pt, 43.0pt)
-* v-part:(T,H,B)=(43.0pt, 710.93625pt, 32.0pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=505.69374pt
-* \textheight=675.93625pt
-* \oddsidemargin=-20.21938pt
-* \evensidemargin=-15.71938pt
-* \topmargin=-24.75313pt
-* \headheight=0.0pt
-* \headsep=10.0pt
-* \topskip=9.0pt
-* \footskip=25.0pt
-* \marginparwidth=38.0pt
-* \marginparsep=10.0pt
-* \columnsep=13.5pt
-* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumntrue
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+\cslhangindent=\skip148
+\csllabelwidth=\skip149
+\cslentryspacingunit=\skip150
+(c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: sidecap package is loaded.
-Package caption Info: End \AtBeginDocument code.
-Package newfloat Info: Trying Plan B...
-Package newfloat Info: `float' package detected.
-Package newfloat Info: `sidecap' package detected.
+Package etex Warning: Extended allocation already in use.
+(etex)                etex.sty code will not be used.
+(etex)                To force etex package to load, add
+(etex)                \RequirePackage{etex}
+(etex)                at the start of the document.
 
-Package sidecap Warning: Package `ragged2e' not found -- expect bad formatting.
-
-LaTeX Info: Redefining \microtypecontext on input line 53.
-Package microtype Info: Applying patch `item' on input line 53.
-Package microtype Info: Applying patch `toc' on input line 53.
-
-Package microtype Warning: Unable to apply patch `eqnum' on input line 53.
-
-Package microtype Info: Applying patch `footnote' on input line 53.
-Package microtype Info: Applying patch `verbatim' on input line 53.
-Package microtype Info: Generating PDF output.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 53.
-Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
-(c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 61.
-(c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <9> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 61.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmss' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <22> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 61.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 61.
-(c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd
-File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
-)
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 61.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `phv' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.54997pt on input line 61.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 61.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 7.59998pt on input line 63.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 63.
-(c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 63.
-(c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 63.
-(c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 63.
-(c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 63.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 63.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 63.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
-(c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
-(c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 70.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 70.
-<Figure2.png, id=21, 481.8pt x 481.8pt>
-File: Figure2.png Graphic file (type png)
-<use Figure2.png>
-Package pdftex.def Info: Figure2.png  used on input line 96.
-(pdftex.def)             Requested size: 252.84586pt x 270.37958pt.
-
-Overfull \hbox (6.749pt too wide) in paragraph at lines 96--97
- [][] 
- []
-
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.64998pt on input line 97.
-Package mdframed Info: mdframed works in twoside mode on input line 120.
-Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 120.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 120.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 120.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 120.
-<Figure3.png, id=22, 481.8pt x 481.8pt>
-File: Figure3.png Graphic file (type png)
-<use Figure3.png>
-Package pdftex.def Info: Figure3.png  used on input line 123.
-(pdftex.def)             Requested size: 252.84586pt x 270.37958pt.
-
-Overfull \hbox (6.749pt too wide) in paragraph at lines 123--124
- [][] 
- []
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 155.
-LaTeX Font Info:    Trying to load font information for T1+bch on input line 155.
-(c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1bch.fd
-File: t1bch.fd 2004/10/18 font definitions for T1/bch.
-) (c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-bch.cfg
-File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
-) [1{c:/Users/felix/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}
-
-
- <./Figure2.png> <./Figure3.png>]
-<Figure4.png, id=42, 481.8pt x 481.8pt>
-File: Figure4.png Graphic file (type png)
-<use Figure4.png>
-Package pdftex.def Info: Figure4.png  used on input line 158.
-(pdftex.def)             Requested size: 252.84586pt x 270.37958pt.
-
-Overfull \hbox (6.749pt too wide) in paragraph at lines 158--159
- [][] 
- []
-
-
-Underfull \vbox (badness 2837) has occurred while \output is active []
-
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 191.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 6.64998pt on input line 191.
-[2 <./Figure4.png>] 
-enddocument/afterlastpage: lastpage setting LastPage.
-(./Rapport.aux)
- ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-03-14>
- ***********
-Package rerunfilecheck Info: File `Rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 06D0F863942DBE8917B6E1B7B65E0CEB;462.
- ) 
+! Undefined control sequence.
+<recently read> \reserveinserts 
+                                
+l.47 \reserveinserts
+                    {28} 
 Here is how much of TeX's memory you used:
- 29914 strings out of 476020
- 559853 string characters out of 5789774
- 1948496 words of memory out of 5000000
- 51320 multiletter control sequences out of 15000+600000
- 624078 words of font info for 149 fonts, out of 8000000 for 9000
+ 28671 strings out of 476020
+ 533595 string characters out of 5789773
+ 1926496 words of memory out of 5000000
+ 50318 multiletter control sequences out of 15000+600000
+ 561365 words of font info for 38 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 117i,14n,121p,1004b,1114s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/Users/felix/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Rapport.pdf (2 pages, 106305 bytes).
-PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 50748 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 117i,0n,121p,450b,105s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
+!  ==> Fatal error occurred, no output PDF file produced!
